@@ -1,30 +1,17 @@
-import {useState} from  'react';
-
 import logo from '../../assets/logo.png';
-import moon from '../../assets/moon.png';
-import sun from '../../assets/sun.png'
-
 
 import './style.css';
 
-export default function Topo(){
-
-    const [fundo, SetFundo] = useState("fundo-branco");
-
-    const [iconeBotao, SetIconeBotao] = useState(moon)
-
-    const mudarFundo = () =>{
-        fundo === "fundo-branco" ? SetFundo("fundo-preto"):SetFundo("fundo-branco");
-    }
+export default function Topo(props){
 
     return(
-        <header className={fundo}>
+        <header className={props.fundo}>
             <div className="topo">
                 <figure>
                     <img src={logo} alt="logo"/>
                 </figure>
-                <button onClick={mudarFundo}>
-                    <img className="imgBotao" src={iconeBotao} alt="botão"/>
+                <button className={props.fundo} onClick={props.botao}>
+                    <img className="imgBotao" src={props.imgButton} alt="botão"/>
                 </button>
             </div>
         </header>
