@@ -1,0 +1,68 @@
+.Exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 30px;
+    gap: 30px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Experiencia .titulo h1{
+    font-size: 36px;
+    padding: 10px;
+}
+
+.titulo hr{
+    width: 90px;
+    border: 2px solid #feb633;
+}
+
+.descricao{
+    font-size: 14px;
+    text-align: center;
+    width: 75%;
+}
+
+.card{
+    display: flex;
+}
+
+
+.corFundoBranco{
+    background-color: #f6f8fc;
+    color:#8a8fa3
+}
+
+.corFundoBranco h1, .corFundoBranco h4{
+    color: #32333c;
+}
+
+.corFundoBranco p{
+    color:#8a8fa3;
+}
+
+.corFundoPreto{
+    background-color: #393838;
+}
+
+.corFundoPreto h1, .corFundoPreto h4{
+    color:#CCCCCC;
+}
+
+.corFundoPreto p{
+    color:#9F9F9F
+}
