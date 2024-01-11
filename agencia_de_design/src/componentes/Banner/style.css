@@ -1,0 +1,36 @@
+.banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.imgBanner{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-banner{
+    width: 50%;
+    height: 478px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafbfc;
+    color: #022144;
+}
+
+.subTitulo{
+    font-size: 12px;
+}
+
+.textoDestaque{
+    font-size: 32px;
+    width: 55%;
+}
+
+span{
+    font-weight: bold;
+}
