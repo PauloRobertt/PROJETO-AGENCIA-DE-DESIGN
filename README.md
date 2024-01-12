@@ -1,5 +1,9 @@
 # PROJETO AGENCIA DE DESIGN
- A proposta desse projeto é criar uma página que contenha múltiplos componentes. Ela terá um botão com a capacidade de alterar o tema de todos os seus componentes. Isso será feito utilizando o React JS.
+ Este projeto tem como objetivo desenvolver uma página web moderna e interativa utilizando React JS.
+ 
+ A página contará com uma variedade de componentes que oferecem uma experiência rica ao usuário.
+ 
+ Uma funcionalidade destacada é a capacidade de alterar dinamicamente o tema de todos os componentes através de um botão intuitivo.
 
  ## Tecnologias Utilizadas
 - Html
