@@ -16,4 +16,47 @@ button img{
 
 button{
     border-radius: 25px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:1024px){
+    button img{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    button{
+        border-radius: 35px;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .topo{
+        padding: 30px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .topo{
+        padding: 20px;
+    }
+
+    button img{
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+    }
+
+    button{
+        border-radius: 35px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:767px){
+    .topo{
+        padding: 20px;
+    }
 }
