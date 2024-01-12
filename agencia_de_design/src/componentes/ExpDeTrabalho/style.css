@@ -32,12 +32,12 @@
 }
 
 .descricao{
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
-    width: 75%;
+    width: 80%;
 }
 
-.card{
+.cards{
     display: flex;
 }
 
@@ -47,7 +47,7 @@
     color:#8a8fa3
 }
 
-.corFundoBranco h1, .corFundoBranco h4{
+.corFundoBranco h1, .corFundoBranco h3{
     color: #32333c;
 }
 
@@ -59,10 +59,57 @@
     background-color: #393838;
 }
 
-.corFundoPreto h1, .corFundoPreto h4{
+.corFundoPreto .card{
+    border: 1px solid #585757;
+}
+
+.corFundoPreto h1, .corFundoPreto h3{
     color:#CCCCCC;
 }
 
 .corFundoPreto p{
     color:#9F9F9F
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    .Experiencia{
+        width: 100%;
+    }
+
+    .Experiencia .titulo h1{
+        font-size: 45px;
+    }
+
+    .Experiencia .descricao{
+        font-size: 19px;
+        width: 100%;
+    }
+
+    .cards{
+        flex-direction: column;
+        padding: 40px 0;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px){
+
+    .Experiencia{
+        width: 100%;
+    }
+
+    .Experiencia .titulo h1{
+        font-size: 45px;
+    }
+
+    .Experiencia .descricao{        
+        font-size: 16px;
+        width: 88vw;
+        text-align: center;
+    }
+
+    .cards{
+        flex-direction: column;
+        padding: 60px 0;
+    }
 }
