@@ -6,17 +6,19 @@ import logoLinkedin from '../../assets/linkedin.png';
 import logoBehance from '../../assets/behance.png';
 import logoDribble from '../../assets/dribble.png';
 
-export default function Footer(){
+import './style.css';
+
+export default function Footer(props){
     return(
-        <div>
-            <figure>
-                <img src={logo} alt="logo"/>
-            </figure>
-            <div>
-                <p>
+        <footer className={props.fundo}>
+            <div className='conteudo-footer'>
+                <figure>
+                    <img src={logo} alt="logo"/>
+                </figure>
+                <p className='descricao'>
                     Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.
                 </p>
-                <nav>
+                <nav className="links">
                     <a href="">
                         <img src={logoFacebook} alt="Facebook"/>
                     </a>
@@ -37,9 +39,9 @@ export default function Footer(){
                     </a>
                 </nav>
             </div>
-            <footer>
-                Copyright 2022 &copy; Paulo Robert Lima Gomes
-            </footer>
-        </div>
+            <div className='direitos'>
+                Copyright 2022 &copy;<span>Paulo Robert Lima Gomes</span>
+            </div>
+        </footer>
     )
 }
