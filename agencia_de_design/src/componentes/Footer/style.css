@@ -1,0 +1,50 @@
+.conteudo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 30px;
+}
+
+footer .descricao{
+    font-size:19px;
+    width: 45%;
+}
+
+.links img{
+    width: 50px;
+    height: 50px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.direitos{
+    text-align: center;
+    padding: 10px;
+}
+
+.direitos span{
+    color: #feb633;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    footer .descricao{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px){
+    footer .descricao{
+        width: 90%;
+        line-height: 35px;
+    }
+
+    .direitos{
+        padding:20px 0;
+    }
+}
