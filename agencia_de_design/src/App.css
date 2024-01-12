@@ -2,3 +2,20 @@
   display: flex;
   flex-direction: column;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.fundo-preto{
+  background-color: #252525;
+  color: #9F9F9F;
+}
+
+.fundo-branco{
+  background-color: #fff;
+  color: #8a8fa3;
+}
