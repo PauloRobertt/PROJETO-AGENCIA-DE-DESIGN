@@ -34,3 +34,55 @@
 span{
     font-weight: bold;
 }
+
+@media screen and (min-width:1024px){
+    .textoDestaque{
+        width: 85%;
+        font-size: 50px;
+    }
+
+    .subTitulo{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .imgBanner{
+        display: none;
+    }
+
+    .info-banner{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .textoDestaque{
+        font-size: 55px;
+        width: 80%;
+    }
+    
+    .subTitulo{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px){
+    .imgBanner{
+        display: none;
+    }
+
+    .info-banner{
+        width: 100%;
+        padding:40px 20px;
+    }
+
+    .textoDestaque{
+        width: 88%;
+        font-size: 50px;
+    }
+
+    .subTitulo{
+        font-size: 14px;
+        width: 57%;
+    }
+}
